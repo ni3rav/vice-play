@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 
 export interface PlayerProps {
@@ -32,7 +31,7 @@ export const Player: React.FC<PlayerProps> = ({
   };
 
   return (
-    <div className="w-fit px-8 rounded-full bg-primary/30 border border-primary/50 shadow-lg backdrop-blur-md">
+    <div className="w-fit px-16 rounded-md bg-primary/5 border border-primary/50 shadow-lg backdrop-blur-md mt-40">
       <h2 className="text-2xl font-bold text-center truncate px-4 mt-2">
         {songs[currentSong]?.title || "No Track Selected"}
       </h2>

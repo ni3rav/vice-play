@@ -6,7 +6,7 @@ function page() {
     { title: "Synthwave Nights", src: "/public/songs/Blinding Lights.mp3" },
   ];
   return (
-    <div className="h-screen w-full flex justify-center items-center">
+    <div className="h-screen w-full flex justify-center items-start">
       <Player
         // isPlaying={isPlaying}
         // playSong={playSong}
